@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="white-bg" stylesheets="@../desain/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbo.FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonRegister" layoutX="125.0" layoutY="314.0" onAction="#register" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: #01c976;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+        <Label fx:id="welcome" layoutX="155.0" layoutY="27.0" minHeight="16" minWidth="69" text="Welcome to Morrah Farm" textFill="#01c976">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Button fx:id="buttonLogin" layoutX="429.0" layoutY="314.0" onAction="#login" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: #01c976;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <ImageView fitHeight="207.0" fitWidth="213.0" layoutX="194.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo2.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

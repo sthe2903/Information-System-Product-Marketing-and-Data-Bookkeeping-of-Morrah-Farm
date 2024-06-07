@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbo.FXMLProdukUserController">
+   <children>
+      <Pane prefHeight="111.0" prefWidth="1000.0" style="-fx-background-color: #01c976;">
+         <children>
+            <Label layoutX="358.0" layoutY="32.0" styleClass="textfield" text="Halaman Produk" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleActionBack" style="-fx-background-color: #01c976;" textFill="#01c976">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="menuLogout" layoutX="901.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleActionLogout" style="-fx-background-color: #01c976;" text="Logout" textFill="#fcfcfc">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TableView fx:id="tvProduk" layoutX="24.0" layoutY="135.0" prefHeight="369.0" prefWidth="614.0">
+        <columns>
+          <TableColumn fx:id="tcNama" prefWidth="143.0" text="Nama" />
+          <TableColumn fx:id="tcHarga" prefWidth="142.0" text="Harga" />
+            <TableColumn fx:id="tcStok" prefWidth="74.0" text="Stok" />
+            <TableColumn fx:id="tcDeskripsi" prefWidth="254.0" text="Deskripsi" />
+        </columns>
+      </TableView>
+      <VBox layoutX="664.0" layoutY="139.0" prefHeight="322.0" prefWidth="313.0" spacing="10.0">
+         <children>
+            <Label text="Nama">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label fx:id="lblNama" text="Label" />
+            <Label text="Harga">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label fx:id="lblHarga" text="Label" />
+            <Label text="Stok">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfStok" prefHeight="30.0" prefWidth="65.0">
+               <VBox.margin>
+                  <Insets right="230.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Deskripsi">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDeskripsi" text="Label" />
+            <Label fx:id="produkID" text="Label" />
+         </children>
+      </VBox>
+      <Button fx:id="btnBeli" layoutX="889.0" layoutY="473.0" mnemonicParsing="false" onAction="#actionHandleBeli" prefHeight="28.0" prefWidth="71.0" style="-fx-background-color: #01c976;" text="Beli" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblIdUser" layoutX="38.0" layoutY="530.0" text="Label" visible="false" />
+      <Label fx:id="lblUsername" layoutX="91.0" layoutY="530.0" text="Label" visible="false" />
+   </children>
+</AnchorPane>

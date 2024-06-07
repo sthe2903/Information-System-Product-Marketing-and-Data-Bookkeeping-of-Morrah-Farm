@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/desain/style.css</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLPeternakController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/TugasKaryawan.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/Produk.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProduksi.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLUserAboutUsController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLAdminController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasProduksiController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLDocumentController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLRegister.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProdukUserController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasKaryawanController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLPembelianController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/AboutUs.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLCRUDProduk.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasProduksi.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLAboutController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLUserAboutUs.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProduksiController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProdukController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasKaryawan.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasPeternakController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/ProjekPBO.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/dbConnection.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLPesanan.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLPembelian.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLLoginController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProdukUser.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLUserr.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLProduk.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLCRUDProdukController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLRegisterController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLPesananController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLAdminn.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/Pesanan.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLDocument.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLTugasPeternak.fxml</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLUserController.java</file>
+            <file>file:/D:/Perkuliahan/SEMESTER%204/PBO/projek/projekPBO/src/projekpbo/FXMLLogin.fxml</file>
+        </group>
+    </open-files>
+</project-private>

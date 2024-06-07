@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="581.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbo.FXMLTugasPeternakController">
+    <children>
+      <TableView fx:id="tvTugas" layoutX="27.0" layoutY="122.0" prefHeight="369.0" prefWidth="614.0" styleClass="textfield" stylesheets="@../desain/style.css">
+        <columns>
+          <TableColumn fx:id="colNama" prefWidth="147.0" text="Nama" />
+          <TableColumn fx:id="colWaktu" prefWidth="128.0" text="Waktu" />
+            <TableColumn fx:id="colDeskripsi" prefWidth="245.0" text="Deskripsi" />
+            <TableColumn fx:id="colStatus" prefWidth="93.0" text="Status" />
+        </columns>
+      </TableView>
+      <Pane prefHeight="111.0" prefWidth="1000.0" style="-fx-background-color: #01c976;">
+         <children>
+            <Label layoutX="273.0" layoutY="32.0" text="Halaman Konfirmasi Tugas" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleActionBack" style="-fx-background-color: #01c976;" textFill="#01c976">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="menuLogout" layoutX="901.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleActionLogout" style="-fx-background-color: #01c976;" text="Logout" textFill="#fcfcfc">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label fx:id="lblNama" layoutX="670.0" layoutY="135.0" text="Nama" />
+      <Label fx:id="lblIsiNama" layoutX="670.0" layoutY="168.0" text="Label" />
+      <Label fx:id="lblWaktu" layoutX="670.0" layoutY="202.0" text="Waktu" />
+      <Label fx:id="lblIsiWaktu" layoutX="670.0" layoutY="232.0" text="Label" />
+      <Label fx:id="lblDeskripsi" layoutX="670.0" layoutY="270.0" text="Deskripsi" />
+      <Label fx:id="lblIsiDeskripsi" layoutX="670.0" layoutY="306.0" text="Label" />
+      <Label fx:id="lblStatus" layoutX="670.0" layoutY="337.0" text="Status" />
+      <Label fx:id="lblIsiStatus" layoutX="670.0" layoutY="368.0" text="Label" />
+      <Button fx:id="btnKonfirmasi" layoutX="860.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleActionKonfirm" text="Konfirmasi" />
+      <Label fx:id="userLogin" layoutX="27.0" layoutY="505.0" text="Label" visible="false" />
+   </children>
+</AnchorPane>

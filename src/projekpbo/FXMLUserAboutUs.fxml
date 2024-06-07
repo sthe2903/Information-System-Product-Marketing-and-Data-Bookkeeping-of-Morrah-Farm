@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" styleClass="white-bg" stylesheets="@../desain/style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="projekpbo.FXMLUserAboutUsController">
+    <children>
+      <Pane prefHeight="111.0" prefWidth="1000.0" style="-fx-background-color: #01c976;">
+         <children>
+            <Label layoutX="358.0" layoutY="32.0" styleClass="textfield" text="Halaman Produk" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleActionBack" style="-fx-background-color: #01c976;" textFill="#01c976">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="menuLogout" layoutX="901.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleActionLogout" style="-fx-background-color: #01c976;" text="Logout" textFill="#fcfcfc">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <VBox layoutX="47.0" layoutY="138.0" prefHeight="603.0" prefWidth="913.0" spacing="10.0">
+         <children>
+            <Label text="Nama Pemilik">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNamaPemilik" layoutX="10.0" layoutY="10.0" text="Label" />
+            <Label layoutX="10.0" layoutY="27.0" text="Nama Manager">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNamaManager" layoutX="10.0" layoutY="44.0" text="Label" />
+            <Label layoutX="10.0" layoutY="61.0" text="Alamat Morrah Farm">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblAlamat" layoutX="10.0" layoutY="78.0" text="Label" />
+            <Label layoutX="10.0" layoutY="95.0" text="Deskripsi">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDeskripsi" layoutX="10.0" layoutY="112.0" text="Label" />
+            <Label layoutX="10.0" layoutY="129.0" text="Contact">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblContact" layoutX="10.0" layoutY="146.0" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="557.0" prefWidth="400.0" styleClass="white-bg" stylesheets="@../desain/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbo.FXMLLoginController">
+    <children>
+      <Label layoutX="126.0" layoutY="151.0" text="Sign In Account" textAlignment="CENTER">
+         <font>
+            <Font name="Ebrima Bold" size="20.0" />
+         </font></Label>
+      <Button fx:id="btnLogin" layoutX="105.0" layoutY="342.0" mnemonicParsing="false" onAction="#actionLogin" prefHeight="43.0" prefWidth="192.0" styleClass="btn" stylesheets="@../desain/style.css" text="Login">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="105.0" layoutY="412.0" text="Belum memiliki akun? ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Hyperlink fx:id="linkRegister" layoutX="245.0" layoutY="409.0" onAction="#viewRegister" text="Register">
+         <font>
+            <Font size="14.0" />
+         </font></Hyperlink>
+      <Button fx:id="btnKembali" layoutX="317.0" layoutY="475.0" mnemonicParsing="false" onAction="#actionKembali" prefHeight="25.0" prefWidth="61.0" styleClass="btn" stylesheets="@../desain/style.css" text="Kembali" />
+      <FontAwesomeIcon fill="#0aad6b" glyphName="USER" layoutX="162.0" layoutY="122.0" size="8em" text="" />
+      <TextField fx:id="fieldUsername" layoutX="74.0" layoutY="207.0" prefHeight="36.0" prefWidth="252.0" promptText="Username" styleClass="textfield" stylesheets="@../desain/style.css" />
+      <PasswordField fx:id="fieldPassword" layoutX="75.0" layoutY="258.0" prefHeight="36.0" prefWidth="252.0" promptText="Password" styleClass="textfield" stylesheets="@../desain/style.css" />
+      <Label fx:id="NamaUser" layoutX="364.0" layoutY="535.0" text="Label" visible="false" />
+   </children>
+</AnchorPane>
